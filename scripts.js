@@ -82,6 +82,7 @@
     function makeMenu(node) {
         let expanded = false;
         const links = document.querySelector('.header__links');
+
         node.addEventListener('click', () => {
             expanded = !expanded;
             node.setAttribute('aria-expanded', expanded ? 'true' : 'false');
